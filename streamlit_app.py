@@ -68,7 +68,7 @@ with tab1:
             }])
             price = model.predict(build_features(row))[0]
             st.metric("Estimated sale price", f"${price:,.0f}")
-            st.write(f"Typical range: **${price * 0.86:,.0f} – ${price * 1.14:,.0f}** (±14%, the model's median error)")
+            st.write(f"Typical range: **\\${price * 0.86:,.0f} – \\${price * 1.14:,.0f}** (±14%, the model's median error)")
 
 with tab2:
     st.write("Upload a CSV with columns: " + ", ".join(INPUT_COLS) +
