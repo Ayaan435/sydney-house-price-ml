@@ -13,7 +13,7 @@ A machine learning project that predicts house sale prices in three different Sy
 ## Links
 
 - **Live app (Streamlit):** https://sydney-house-price-ayaan.streamlit.app
-- **Video walkthrough:** - https://youtu.be/FmggkhNbgVg
+- **Video walkthrough:** https://youtu.be/FmggkhNbgVg
 - **Dataset:** [`data/sydney_sold_properties.csv`](data/sydney_sold_properties.csv)
 
 ## Dataset
